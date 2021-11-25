@@ -7,7 +7,6 @@ sections:
 - type: document
   path: Ladies/Lady
   label: Lady
-  match: "**/*"
 - type: directory
   path: data/ladies
   label: Ladies
