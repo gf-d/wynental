@@ -9,5 +9,17 @@ fields:
   label: Name
   description: Please enter only a first name, and note that this is the name that
     will be displayed on the site it does not have to be the real name.
+- name: basic_information
+  type: field_group
+  config: {}
+  fields:
+  - name: age
+    type: text
+    config:
+      required: false
+    label: Age
+    description: Enter the person's age in years.
+  label: Basic Information
+  description: An overview.
 pages:
 - data/ladies/20211125matthewherren.md
