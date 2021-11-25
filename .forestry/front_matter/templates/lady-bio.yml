@@ -1,4 +1,11 @@
 ---
 label: Lady Bio
 hide_body: true
-fields: []
+fields:
+- name: displayname
+  type: text
+  config:
+    required: true
+  label: Name
+  description: Please enter only a first name, and note that this is the name that
+    will be displayed on the site it does not have to be the real name.
